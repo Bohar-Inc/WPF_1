@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Wpf_1.ViewModels
 {
-    internal class AddYouTubeViewerViewModel
+    public class AddYouTubeViewerViewModel
     {
+        public YouTubeViewerDetailsFormViewModel YouTubeViewerDetailsFormViewModel { get; }
+        public AddYouTubeViewerViewModel()
+        {
+            YouTubeViewerDetailsFormViewModel = new YouTubeViewerDetailsFormViewModel();
+        }
     }
 }
