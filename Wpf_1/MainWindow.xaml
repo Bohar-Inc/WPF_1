@@ -8,12 +8,9 @@
         mc:Ignorable="d"
         Title="YouTube Viewers" Height="450" Width="800" FontSize="14">
     <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-        <StackPanel Margin="25">
-            <views:AddYouTubeViewerView/>
-            <views:EditYouTubeViewerView/>
-        </StackPanel>
+        <Grid Margin="25">
+            <views:YouTubeViewersView DataContext="{Binding YouTubeViewersViewModel}"/>
+        </Grid>
     </ScrollViewer>
-    <!--<Grid Margin="25">
-        <views:YouTubeViewersView/>
-    </Grid>-->
+    
 </Window>
