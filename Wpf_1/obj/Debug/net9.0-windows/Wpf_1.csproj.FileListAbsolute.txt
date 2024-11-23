@@ -26,3 +26,4 @@ C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\GeneratedInterna
 C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Components\YouTubeViewersDetails.baml
 C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Components\YouTubeViewersListing.baml
 C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Views\YouTubeViewersView.baml
+C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\App.baml

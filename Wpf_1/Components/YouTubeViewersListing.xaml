@@ -7,6 +7,14 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Border BorderThickness="1" CornerRadius="5" BorderBrush="{StaticResource BorderPrimary}" SnapsToDevicePixels="True">
+            <Grid>
+                <Grid.OpacityMask>
+                    <VisualBrush Visual="{Binding ElementName=border}"/>
+                </Grid.OpacityMask>
+                <Border x:Name="border" Background="White" CornerRadius="5"/>
+                <ListView BorderThickness="0"/>
+            </Grid>
+        </Border>
     </Grid>
 </UserControl>
