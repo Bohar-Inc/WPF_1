@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Wpf_1.ViewModels
 {
-    internal class EditYouTubeViewerViewModel
+    public class EditYouTubeViewerViewModel : ViewModelBase
     {
+
     }
 }
