@@ -27,3 +27,6 @@ C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Components\YouTu
 C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Components\YouTubeViewersListing.baml
 C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Views\YouTubeViewersView.baml
 C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\App.baml
+C:\Users\STLX\source\repos\Wpf_1\Wpf_1\bin\Debug\net9.0-windows\DropdownMenuControl.dll
+C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Wpf_1.csproj.AssemblyReference.cache
+C:\Users\STLX\source\repos\Wpf_1\Wpf_1\obj\Debug\net9.0-windows\Wpf_1.csproj.Up2Date

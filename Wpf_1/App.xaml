@@ -12,6 +12,7 @@
                 <Setter Property="VerticalAlignment" Value="Center"/>
                 <Setter Property="HorizontalAlignment" Value="Center"/>
                 <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                <Setter Property="Cursor" Value="Hand"/>
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
@@ -26,14 +27,14 @@
                         <Trigger.EnterActions>
                             <BeginStoryboard>
                                 <Storyboard>
-                                    <ColorAnimation Storyboard.TargetProperty="BackGround.(SolidColorBrush.Color)" To="#2a3d82" Duration="0:0:0.1"/>
+                                    <ColorAnimation Storyboard.TargetProperty="Background.(SolidColorBrush.Color)" To="#2a3d82" Duration="0:0:0.1"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </Trigger.EnterActions>
                         <Trigger.ExitActions>
                             <BeginStoryboard>
                                 <Storyboard>
-                                    <ColorAnimation Storyboard.TargetProperty="BackGround.(SolidColorBrush.Color)" To="#547AFF" Duration="0:0:0"/>
+                                    <ColorAnimation Storyboard.TargetProperty="Background.(SolidColorBrush.Color)" To="#547AFF" Duration="0:0:0"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </Trigger.ExitActions>

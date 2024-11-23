@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Wpf_1.ViewModels;
 
 namespace Wpf_1
 {
@@ -9,7 +10,10 @@ namespace Wpf_1
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            MainWindow = new MainWindow();
+            MainWindow = new MainWindow()
+            { 
+                DataContext = new YouTubeViewersViewModel()
+            };
             MainWindow.Show();
             base.OnStartup(e);
         }
