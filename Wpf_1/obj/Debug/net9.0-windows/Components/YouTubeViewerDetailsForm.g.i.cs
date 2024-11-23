@@ -54,7 +54,7 @@ namespace Wpf_1.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf_1;V1.0.0.0;component/components/youtubeviewerdetailsform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf_1;component/components/youtubeviewerdetailsform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Components\YouTubeViewerDetailsForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

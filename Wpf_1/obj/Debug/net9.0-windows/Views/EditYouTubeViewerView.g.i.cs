@@ -55,7 +55,7 @@ namespace Wpf_1.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf_1;V1.0.0.0;component/views/edityoutubeviewerview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf_1;component/views/edityoutubeviewerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\EditYouTubeViewerView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
