@@ -26,5 +26,10 @@ namespace Wpf_1.Stores
 		}
 
         public bool IsOpen => CurrentViewModel != null;
+
+        internal void Close()
+        {
+            CurrentViewModel = null;
+        }
     }
 }

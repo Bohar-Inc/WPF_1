@@ -37,7 +37,9 @@ namespace Wpf_1.ViewModels
 			}
 		}
 		private bool _isMember;
-		public bool IsMember
+
+
+        public bool IsMember
 		{
 			get
 			{
@@ -52,5 +54,10 @@ namespace Wpf_1.ViewModels
 		public bool CanSubmit => !string.IsNullOrEmpty(Username);
         public ICommand SubmitCommand { get; }
         public ICommand CancelCommand { get; }
+        public YouTubeViewerDetailsFormViewModel(ICommand submitCommand, ICommand cancelCommand)
+        {
+            SubmitCommand = submitCommand;
+            CancelCommand = cancelCommand;
+        }
     }
 }

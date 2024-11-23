@@ -18,8 +18,8 @@
     </Window.Resources>
     <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
         <Grid>
-            <custom:Modal IsOpen="{Binding IsModalOpen}">
-                <ContentControl Content="{Binding CurrentModalViewModel}"/>
+            <custom:Modal Panel.ZIndex="1" IsOpen="{Binding IsModalOpen}">
+                <ContentControl Margin="50,25" Content="{Binding CurrentModalViewModel}"/>
             </custom:Modal>
             <views:YouTubeViewersView Margin="25" DataContext="{Binding YouTubeViewersViewModel}"/>
         </Grid>
