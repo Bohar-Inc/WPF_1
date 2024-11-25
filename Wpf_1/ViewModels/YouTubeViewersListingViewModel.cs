@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using Wpf_1.Models;
 using Wpf_1.Stores;
 
@@ -26,7 +21,7 @@ namespace Wpf_1.ViewModels
             {
                 _selectedYouTubeViewerListingItemViewModel = value;
                 OnPropertyChanged(nameof(SelectedYouTubeViewerListingItemViewModel));
-                _selectedYouTubeViewerStore.SelectedYouTubeViewer = _selectedYouTubeViewerListingItemViewModel?.YouTubeViewer;
+                _selectedYouTubeViewerStore.SelectedYouTubeViewer = _selectedYouTubeViewerListingItemViewModel.YouTubeViewer; 
             }
         }
         public YouTubeViewersListingViewModel(SelectedYouTubeViewerStore selectedYouTubeViewerStore)

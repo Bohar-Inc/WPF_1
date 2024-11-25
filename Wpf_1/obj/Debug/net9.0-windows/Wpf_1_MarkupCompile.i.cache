@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 C:\Users\STLX\source\repos\Wpf_1\Wpf_1\App.xaml
-7-354825662
+8-1777334405
 
-191216643652
+30-1102733404
 202-1738959134
-Components\YouTubeViewerDetailsForm.xaml;Components\YouTubeViewersDetails.xaml;Components\YouTubeViewersListing.xaml;MainWindow.xaml;Views\AddYouTubeViewerView.xaml;Views\EditYouTubeViewerView.xaml;Views\YouTubeViewersView.xaml;
+Components\YouTubeViewerDetailsForm.xaml;Components\YouTubeViewersDetails.xaml;Components\YouTubeViewersListing.xaml;Components\YouTubeViewersListingItem.xaml;MainWindow.xaml;Views\AddYouTubeViewerView.xaml;Views\EditYouTubeViewerView.xaml;Views\YouTubeViewersView.xaml;
 
-True
+False
 
