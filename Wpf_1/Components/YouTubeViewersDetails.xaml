@@ -15,14 +15,14 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" FontSize="16" Text="SingletonSean"/>
+                <TextBlock Grid.Row="0" FontSize="16" Text="{Binding Username}"/>
                 <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Column="0" Text="Is Subscribed?" FontWeight="Bold"/>
-                    <TextBlock Grid.Column="1" Text="Username"/>
+                    <TextBlock Grid.Column="1" Text="{Binding IsSubscribedDisplay}"/>
                 </Grid>
                 <Grid Grid.Row="2">
                     <Grid.ColumnDefinitions>
@@ -30,7 +30,7 @@
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Column="0" Text="Is Member?" FontWeight="Bold"/>
-                    <TextBlock Grid.Column="1" Text="Username"/>
+                    <TextBlock Grid.Column="1" Text="{Binding IsMemberDisplay}"/>
                 </Grid>
             </Grid>
         </Border>

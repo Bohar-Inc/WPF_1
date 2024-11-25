@@ -17,15 +17,15 @@
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Text="YouTube Viewers"/>
-            <Button Grid.Column="1" Content="Add"/>
+            <Button Grid.Column="1" Content="Add" Command="{Binding AddYouTubeViewersCommand}"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-            <components:YouTubeViewersDetails Grid.Column="1" Margin="10,0,0,0"/>
-            <components:YouTubeViewersListing Grid.Column="0"/>
+            <components:YouTubeViewersDetails Grid.Column="1" Margin="10,0,0,0" DataContext="{Binding YouTubeViewersListingViewModel}"/>
+            <components:YouTubeViewersListing Grid.Column="0" DataContext="{Binding YouTubeViewersDetailsViewModel}"/>
         </Grid>
     </Grid>
 </UserControl>
