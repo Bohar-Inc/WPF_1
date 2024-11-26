@@ -1,0 +1,16 @@
+﻿using System.Windows.Input;
+
+namespace Wpf_1.ViewModels
+{
+    public class YouTubeViewersViewModel : ViewModelBase
+    {
+        public YouTubeViewersListingViewModel YouTubeViewersListingViewModel { get; }
+        public YouTubeViewersDetailsViewModel YouTubeViewersDetailsViewModel { get; }
+        public ICommand AddYouTubeViewersCommand { get; }
+        public YouTubeViewersViewModel()
+        {
+            YouTubeViewersListingViewModel = new YouTubeViewersListingViewModel();
+            YouTubeViewersDetailsViewModel = new YouTubeViewersDetailsViewModel();
+        }
+    }
+}
